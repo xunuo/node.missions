@@ -1,3 +1,0 @@
-hello join npm
-===========
-fdsfdsf
