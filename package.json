@@ -1,0 +1,13 @@
+{
+  "author": "snow <i@xunuo.com>",
+  "name": "snow_test_2",
+  "description": "snow test 1",
+  "version": "0.0.1",
+  "homepage": "http://www.xunuo.com",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
