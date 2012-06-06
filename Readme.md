@@ -3,7 +3,7 @@
  * 支持串行、并行总线
  * 支持为每个增加任务传参
 
-~~~
+~~~javascript
 /**
  * 创建钩子初始化串行任务流 (↓：串行)
  */
@@ -20,7 +20,7 @@ var hookInitMissions = ( new MissionsClass() ).init({
 });
 ~~~
 
-~~~
+~~~javascript
 // ↓ 获取提交人信息
 hookInitMissions.join(function(args){
  
@@ -52,7 +52,7 @@ hookInitMissions.join(function(){
 });
 ~~~
 
-~~~
+~~~javascript
 /**
  * 创建HOOKLINT检测并行任务流 (→：并行)
  */
@@ -65,7 +65,7 @@ var hookLintsMissions = ( new MissionsClass() ).init({
 });
 ~~~
 
-~~~
+~~~javascript
 // → 检测文件、目录名
 hookLintsMissions.join(function(){
 		checkItemsNameMod();
@@ -76,4 +76,3 @@ hookLintsMissions.join(function(){
 		jschardet = require("jschardet");
 		hookLintsMissions.complete();
 });
-~~~
