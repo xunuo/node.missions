@@ -22,7 +22,7 @@
 
 	// ↓ 获取提交人信息
 	hookInitMissions.join(function(args){
-	
+	 
     	// 填充创建目录任务
 			var tempDirFullPath = args.tempDirFullPath,
 					cmd = 'mkdir -p ' + '"' + tempDirFullPath + '"',
